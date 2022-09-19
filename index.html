@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images//favicon.svg">
+    <script src="/index.js"></script>
+</head>
+
+<body>
+    <div id="landingPage">
+        <nav>
+            <img src="/images/navbarLogo.svg" />
+            <div class="info">
+                <div class="info1">
+                    <a href="#projectHeader" class="navbarTxt"> All projects </a>
+                    <a class="navbarTxt"> Resume </a>
+                    <a href="https://github.com/Almighty42" class="navbarTxt"> Github </a>
+                    <a href="#Contact" class="navbarTxt"> Contact </a>
+                </div>
+                <div class="info2">
+                    <input id="toggle" type="checkbox"></input>
+                    <label for="toggle" class="hamburger">
+                        <div class="top-bun"></div>
+                        <div class="meat"></div>
+                        <div class="bottom-bun"></div>
+                    </label>
+                    <div class="ham">
+                        <div class="ham-wrapper">
+                            <div class="ham2">
+                                <a href="#">All projects</a><br>
+                                <a href="#">Resume</a><br>
+                                <a href="#">Github</a><br>
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="header">
+            <h2 id="headerH2"> My name is Luka and I am a </h2>
+            <h1 id="headerH1"> Front-end web developer </h1>
+        </div>
+        <div id="pointer">
+            <p> My projects </p>
+            <img style="width: 30px; height:30px" src="/images/pointer.svg" />
+        </div>
+    </div>
+    <div id="projectHeader">
+        <h1 style="font-weight: 200"> Projects </h1>
+    </div>
+    <div class="ProjectDiv">
+        <div class="imageOpacity">
+            <img src="/images/postSoundbit.png" class="ProjectImage" />
+        </div>
+        <div class="ProjectCard">
+            <h2 class="cardHeader"> Soundbit </h2>
+            <div class="ProjectDisc">
+                <p class="discP"> A minimalistic music player for desktop built with electron. Supported formats: mp3,
+                    wav, ogg. MacOS version coming soon </p>
+            </div>
+            <div class="techDiv">
+                <div class="techSubdiv">
+                    <p class="techP"> React </p>
+                    <img class="techImg" src="/images/techReact.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Electron </p>
+                    <img class="techImg" src="/images/techElectron.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Node js </p>
+                    <img class="techImg" src="/images/techNodejs.svg" />
+                </div>
+            </div>
+            <div class="linksDiv">
+                <a href="https://github.com/Almighty42/Soundbit">
+                    <img class="links" src="/images/linksGithub.svg" />
+                </a>
+                <a href="https://soundbitwebsite.web.app/">
+                    <img class="links" style="margin-left: 30px" src="/images/linksRedirect.svg" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ProjectDiv">
+        <div class="ProjectCard CardLeft">
+            <h2 class="cardHeader"> Popion </h2>
+            <div class="ProjectDisc">
+                <p class="discP"> A simple social media app </p>
+            </div>
+            <div class="techDiv">
+                <div class="techSubdiv">
+                    <p class="techP"> React </p>
+                    <img class="techImg" src="/images/techReact.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Graphql </p>
+                    <img class="techImg" src="/images/techGraphql.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Apollo </p>
+                    <img class="techImg" src="/images/techApollo.svg" />
+                </div>
+            </div>
+            <div class="linksDiv">
+                <a href="https://github.com/Almighty42/popion">
+                    <img class="links" src="/images/linksGithub.svg" />
+                </a>
+                <a href="https://ppopion.web.app/" >
+                    <img class="links" style="margin-left: 30px" src="/images/linksRedirect.svg" />
+                </a>
+            </div>
+        </div>
+        <div class="imageOpacity imageRight">
+            <img src="/images/postPopion.PNG" class="ProjectImage" />
+        </div>
+    </div>
+    <div class="ProjectDiv">
+        <div class="imageOpacity">
+            <img src="/images/postTaskit.PNG" class="ProjectImage" />
+        </div>
+        <div class="ProjectCard">
+            <h2 class="cardHeader"> Taskit </h2>
+            <div class="ProjectDisc">
+                <p class="discP"> A simple todo list web app with Login functionality.
+                    Developed with typescript. </p>
+            </div>
+            <div class="techDiv">
+                <div class="techSubdiv">
+                    <p class="techP"> React </p>
+                    <img class="techImg" src="/images/techReact.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Express js </p>
+                    <img class="techImg" src="/images/techExpressjs.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Typescript </p>
+                    <img class="techImg" src="/images/techTypescript.svg" />
+                </div>
+                <div class="techSubdiv">
+                    <p class="techP"> Sass </p>
+                    <img class="techImg" src="/images/techSass.svg" />
+                </div>
+            </div>
+            <div class="linksDiv">
+                <a href="https://github.com/Almighty42/Taskit">
+                    <img class="links" src="/images/linksGithub.svg" />
+                </a>
+                <a href="https://taskit-bf0af.web.app/">
+                    <img class="links" style="margin-left: 30px" src="/images/linksRedirect.svg" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="last">
+        <div id="Aboutme">
+            <div id="AboutHeader">
+                <h1 style="font-weight: 200;"> About me </h1>
+            </div>
+            <p id="AboutP"> My name is Luka and I’m a web developer from Serbia. I studied web technologies for the last
+                year on my own and this year I'm signing up for college. Looking foward to work with you! </p>
+        </div>
+        <form action="https://formsubmit.co/xenoman4202@gmail.com" method="POST" id="Contact">
+            <div id="ContactHeader">
+                <h1 style="font-weight: 200;"> Contact </h1>
+            </div>
+            <div id="ContactCard">
+                <div id="smallInputDiv">
+                    <input name="name" type="text" class="smallInput" placeholder="Name" />
+                    <input name="email" type="email" class="smallInput" placeholder="Email" />
+                </div>
+                <textarea name="body" type="text" placeholder="Message"></textarea>
+                <button type="submit" class="submitButton"> SUBMIT </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
