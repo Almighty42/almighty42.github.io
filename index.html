@@ -10,7 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="icon" href="/images//favicon.svg">
-    <script src="/index.js"></script>
+    <script>
+        const collapseBurger = () => {
+            document.getElementById('toggle').checked = false;
+        }
+    </script>
 </head>
 
 <body>
@@ -20,7 +24,6 @@
             <div class="info">
                 <div class="info1">
                     <a href="#projectHeader" class="navbarTxt"> All projects </a>
-                    <a class="navbarTxt"> Resume </a>
                     <a href="https://github.com/Almighty42" class="navbarTxt"> Github </a>
                     <a href="#Contact" class="navbarTxt"> Contact </a>
                 </div>
@@ -34,10 +37,9 @@
                     <div class="ham">
                         <div class="ham-wrapper">
                             <div class="ham2">
-                                <a href="#">All projects</a><br>
-                                <a href="#">Resume</a><br>
-                                <a href="#">Github</a><br>
-                                <a href="#">Contact</a>
+                                <a onclick="collapseBurger()" href="#projectHeader">All projects</a><br>
+                                <a onclick="collapseBurger()" href="https://github.com/Almighty42">Github</a><br>
+                                <a onclick="collapseBurger()" href="#Contact">Contact</a>
                             </div>
                         </div>
                     </div>
